@@ -232,7 +232,7 @@
                                         attrs: {
                                           target: "_blank",
                                           href:
-                                            "https://xydh.fun/" +
+                                            "https://home-eiz.pages.dev/" +
                                             e.row.user_name,
                                         },
                                       },

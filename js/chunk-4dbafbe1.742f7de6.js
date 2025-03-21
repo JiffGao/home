@@ -379,9 +379,9 @@
               labtextindex: 0,
               selectedEngine: 0,
               selectedClass: 0,
-              text: "输入即可站内搜索，按下回车使用百度搜索",
+              text: "搜索",
               searchTxt: "",
-              url: "https://www.baidu.com/s?wd=",
+              url: "https://cn.bing.com/search?q=",
               labSwith: !1,
               searchClass: [
                 { id: 0, name: "常用" },
@@ -1155,63 +1155,9 @@
                   ]);
                 },
                 [
-                  function () {
-                    var t = this.$createElement,
-                      e = this._self._c || t;
-                    return e("div", { staticClass: "card" }, [
-                      e(
-                        "a",
-                        {
-                          staticClass: "felx",
-                          attrs: {
-                            href: "https://xydh.fun/me",
-                            target: "_blank",
-                          },
-                        },
-                        [
-                          this._v(" 打开后台 "),
-                          e("i", { staticClass: "el-icon-top-right" }),
-                        ]
-                      ),
-                    ]);
-                  },
-                  function () {
-                    var t = this.$createElement,
-                      e = this._self._c || t;
-                    return e("div", { staticClass: "card" }, [
-                      e(
-                        "a",
-                        {
-                          staticClass: "felx",
-                          attrs: {
-                            href: "https://xydh.fun/u/login",
-                            target: "_blank",
-                          },
-                        },
-                        [
-                          this._v(" 注册新账号 "),
-                          e("i", { staticClass: "el-icon-top-right" }),
-                        ]
-                      ),
-                    ]);
-                  },
-                  function () {
-                    var t = this,
-                      e = t.$createElement,
-                      i = t._self._c || e;
-                    return i("div", { staticClass: "accountTips" }, [
-                      t._v(" 后台功能: "),
-                      i("ul", [
-                        i("li", [t._v(" 生成个人专属导航，云端同步随时访问 ")]),
-                        i("li", [t._v(" 设置主页标题、简介、背景、音乐 ")]),
-                        i("li", [t._v(" 文件夹和书签的增删和排序 ")]),
-                        i("li", [t._v(" 网站改名、书签文件夹扩容 ")]),
-                        i("li", [t._v(" 浏览器书签导入、书签本地导出备份 ")]),
-                        i("li", [t._v(" 克隆其他站长网站 ")]),
-                        i("li", [t._v(" 订阅其他站长的书签实时同步 ")]),
-                      ]),
-                    ]);
-                  },
+                  {
+                      
+                  }
                 ],
                 !1,
                 null,
@@ -1519,36 +1465,6 @@
                           "div",
                           { staticClass: "settingArea" },
                           [
-                            i(
-                              "el-tooltip",
-                              {
-                                staticClass: "item",
-                                attrs: {
-                                  effect: "dark",
-                                  content: "登陆/注册",
-                                  placement: "bottom",
-                                },
-                              },
-                              [
-                                i(
-                                  "a",
-                                  {
-                                    staticClass: " settingIcon",
-                                    attrs: {
-                                      href: "https://xydh.fun/me",
-                                      target: "_blank",
-                                    },
-                                  },
-                                  [
-                                    i("i", {
-                                      staticClass: "el-icon-user-solid",
-                                      attrs: { slot: "reference" },
-                                      slot: "reference",
-                                    }),
-                                  ]
-                                ),
-                              ]
-                            ),
                             i(
                               "a",
                               {
@@ -1987,24 +1903,20 @@
             type: "搜索引擎",
             list: [
               {
+                title: "必应",
+                url: "https://cn.bing.com/search?q=",
+                icon: "iconfont icon-bing",
+              },
+              {
                 title: "百度",
                 url: "https://www.baidu.com/s?wd=",
                 icon: "iconfont icon-baidu",
                 placeholder: "输入可站内搜索，回车百度一下",
               },
               {
-                title: "必应",
-                url: "https://cn.bing.com/search?q=",
-                icon: "iconfont icon-bing",
-              },
-              {
                 title: "谷歌",
                 url: "https://www.google.com/search?q=",
                 icon: "iconfont icon-google",
-              },
-              {
-                title: "F搜",
-                url: "https://fsoufsou.com/search?tbn=all&autoCorrection=0&q=",
               },
               {
                 title: "搜狗",
@@ -2241,10 +2153,10 @@
                   : P,
               activeSearchEngine: {
                 type: "搜索引擎",
-                url: "https://www.baidu.com/s?wd=",
-                title: "百度",
-                placeholder: "输入可站内搜索，回车触发百度",
-                icon: "iconfont icon-baidu",
+                url: "https://cn.bing.com/search?q=",
+                title: "必应",
+                placeholder: "搜我呀",
+                icon: "iconfont icon-bing",
               },
               searchResultLinks: [],
               searchTxt: "",
@@ -2882,7 +2794,7 @@
                   e.$alert("", "走迷路了", {
                     confirmButtonText: "回主页",
                     callback: function () {
-                      window.location.href = "https://xydh.fun";
+                      window.location.href = "https://home-eiz.pages.dev/";
                     },
                   });
                 else {
