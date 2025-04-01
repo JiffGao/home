@@ -983,7 +983,7 @@
                       info: "",
                       icon: "",
                       fid: 44,
-                      weight: 0,
+                      weight: 100,
                       update_time_unix: 1732807894,
                     },
                     {
@@ -993,7 +993,7 @@
                       info: "",
                       icon: "",
                       fid: 44,
-                      weight: 0,
+                      weight: 99,
                       update_time_unix: 1732807421,
                     },
                     {
@@ -1003,7 +1003,7 @@
                       info: "",
                       icon: "",
                       fid: 44,
-                      weight: 0,
+                      weight: 98,
                       update_time_unix: 1732807421,
                     },
                     {
@@ -1013,7 +1013,7 @@
                       info: "",
                       icon: "",
                       fid: 44,
-                      weight: 0,
+                      weight: 97,
                       update_time_unix: 1732807421,
                     },
                     {
@@ -1023,7 +1023,17 @@
                       info: "",
                       icon: "",
                       fid: 44,
-                      weight: 0,
+                      weight: 96,
+                      update_time_unix: 1732807421,
+                    },
+                    {
+                      id: 402772,
+                      name: "资源下载 - 在线资源下载 - 在线资源下载 - Linux",
+                      url: "https://linux.do/",
+                      info: "资源下载 - 在线资源下载 - 在线资源下载 - Linux",
+                      icon: "",
+                      fid: 44,
+                      weight: 95,
                       update_time_unix: 1732807421,
                     }
                   ],
